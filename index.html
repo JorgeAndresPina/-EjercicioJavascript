@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" type="text" href="css/bootstrap.min.css">
+    <script src="js/funciones_index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <div class="container diseño_primer_container"> <!--Nombre de la persona-->
+                <label for="nombre">Nombre:</label><br><input type="text" id="nombre" name="nombre" placeholder="Nombre de Pila" required minlength="3" maxlength="20""><br>
+                <label for="apepaterno">Apellido Paterno:</label><br><input type="text" id="apepaterno" name="apellido_paterno" placeholder="Primer apellido" required minlength="3" maxlength="20"><br>
+                <label for="apematerno">Apellido Paterno:</label><br><input type="text" id="apematerno" name="apellido_materno" placeholder="Segundo apellido" required minlength="3" maxlength="20"><br>
+                <label for="edad">Edad:</label><br><input type="number" id="edad" name="edad" placeholder="18-35" min="18" max="35" required><br>
+                <label for="telefono">Celular:</label><br><input type="number" id="telefono" name="Celular" placeholder="999999999999" minlength="9" maxlength="12" required>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container"> <!--Datos de la persona como civil.-->
+                <label for="rut">Rut:</label><br><input type="text" id="rut" name="rut" placeholder="En el siguiente formato xxxxxxxx-x." required minlength="9" maxlength="10" ><br>
+                <label for="genero">Genero:</label><br>
+                <select name="genero" id="genero" required>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select><br>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <!--Fecha de nacimiento.-->
+                <label for="fecha_de_nacimiento">Fecha de nacimiento</label><br><input type="date" id="fecha_de_nacimiento" name="Fecha_Nacmiento"><br>
+                <!--Correo.-->
+                <label for="mail">Correo Electronico:</label><br><input type="email" id="mail" name="mail" placeholder="aaa.aaaa@aaaaa.aaa" maxlength="50"><br>
+                <!--Motivacion.-->
+                <label for="motivo">Motivo:</label><br>
+                <select name="motivacion" id=" motivo">
+                    <option>----</option>
+                    <option value="salir">Vacaciones</option>
+                    <option value="ayudar">Ayudar</option>
+                    <option value="Molestar">Molestar</option>
+                </select> <br>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container"> <!--Boton de submit-->
+                <input type="submit" value="Crear Carta">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <input type="">
+    </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

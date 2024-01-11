@@ -1,0 +1,19 @@
+body{
+    background-color: #356600;
+}
+.diseño_texto{
+    color: #ccffcc;
+}
+.diseño_primer_container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin: solid 10px;
+    display: grid;
+    height: 300px;
+    width: 500px;
+    grid-template-columns: 180px auto 250px 100px ;
+    background-color: #4f9900;
+}
